@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Nigel Huang`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Personal website of Nigel Huang (CA)`,
     author: `@nigel5`,
   },
   plugins: [
@@ -61,4 +61,5 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
+  pathPrefix: "/nigel5.github.io",
 }

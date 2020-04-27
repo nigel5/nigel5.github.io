@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "nigel5 homepage",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Homepage",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Nigel Huang nigelhuang2000@gmail.com"
   "dependencies": {
     "@material-ui/core": "^4.9.12",
     "gatsby": "^2.20.35",
@@ -21,6 +21,7 @@
     "react-helmet": "^6.0.0"
   },
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "prettier": "2.0.4"
   },
   "keywords": [
@@ -34,13 +35,14 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/nigel5/nigel5.github.io"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/nigel5/nigel5.github.io/issues"
   }
 }
